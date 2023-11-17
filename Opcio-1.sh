@@ -1,5 +1,5 @@
 #!/bin/bash
-$1
+document=$1
 mostrarMenu(){
 echo ------------------------------------------
 echo Llistats de les pel·licles del catàleg.
@@ -15,7 +15,7 @@ echo Introduce la opción:
 mostrarMenu
 read op
 case $op in
-1) echo Ordenar por titulo;;
+1) ./Tasca1-1.sh $document;;
 2) echo Ordenar por año;;
 3) echo Ordenar por valoración;; 
 esac
