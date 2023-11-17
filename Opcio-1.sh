@@ -16,6 +16,6 @@ mostrarMenu
 read op
 case $op in
 1) ./Tasca1-1.sh $document;;
-2) echo Ordenar por año;;
-3) echo Ordenar por valoración;; 
+2) ./Tasca1-2.sh $document;;
+3) ./Tasca1-3.sh $document;; 
 esac
