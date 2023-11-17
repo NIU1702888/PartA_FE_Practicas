@@ -9,6 +9,7 @@ echo 1-2 Mostrar el catàleg cronològic.
 echo 1-3 Mostrar el catàleg per valoració.
 echo 0. Tornar al menu anterior. 
 echo Introduce la opción:
+
 }
 
 mostrarMenu
