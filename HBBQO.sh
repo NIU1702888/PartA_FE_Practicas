@@ -1,5 +1,5 @@
 #!/bin/bash
-$1
+document=$1
 mostrarMenu(){
 echo ------------------------------------------
 echo Base de dades del catàleg HBBQO
@@ -28,6 +28,9 @@ done
 if [[ $op = 0 ]]
 then
 echo Agraim la seva visita a HBBQO
+elif [[ $op = 1 ]]
+then
+./Opcio-1.sh $document
 else
 enDesenvolupament
 fi
