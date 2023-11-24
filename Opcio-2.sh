@@ -46,6 +46,7 @@ read rl
 echo Escribe una cadena
 read cad
 echo Se enviara $rl y $cad
+#probando
 ./Tasca2-3 $document $cad $rl
 }
 
