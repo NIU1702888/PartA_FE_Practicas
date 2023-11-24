@@ -1,5 +1,6 @@
 #!/bin/bash
 document=$1
+#esta es la opcion 2 de la parte A
 mostrarMenu(){
 echo ------------------------------------------
 echo 2 - Cerca d"'"una pel·lícula al catàleg.
