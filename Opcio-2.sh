@@ -26,6 +26,7 @@ read cadena
 echo Introdueix any
 echo any
 echo se enviara $cadena i $any
+#probando
 ./Tasca2-2 $document $cadena $any 
 }
 
