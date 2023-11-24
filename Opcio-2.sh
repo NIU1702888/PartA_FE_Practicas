@@ -17,6 +17,7 @@ read a
 echo Segona lletra
 read b
 echo se enviara $a i $b
+#probando
 ./Tasca2-1 $document $a $b
 }
 tasca2-2(){
